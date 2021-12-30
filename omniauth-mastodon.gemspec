@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w(lib)
   spec.version       = OmniAuth::Mastodon::Version
 
-  spec.add_dependency 'omniauth', '~> 1.0'
-  spec.add_dependency 'omniauth-oauth2', '~> 1.1'
+  spec.add_dependency 'omniauth'
+  spec.add_dependency 'omniauth-oauth2'
   spec.add_dependency 'i18n', '~> 1.6'
 
   spec.add_development_dependency 'bundler', '~> 1.0'
